@@ -1,0 +1,7 @@
+﻿@model WeatherInfo
+
+<div class="weather-info">
+    <h3>Погода в @Model.City</h3>
+    <p>Состояние: @Model.Condition</p>
+    <p>Температура: @Model.Temperature.ToString("F1") °C</p>
+</div>
